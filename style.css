@@ -1,0 +1,498 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding: 1rem 5rem;
+}
+
+.black-button {
+    border-radius: 30px 30px 5px 30px;
+}
+
+.default-button {
+    background-color: #FA735D;
+    border: none;
+}
+
+.default-button:hover {
+    background-color: #FA735D;
+}
+
+.light-button {
+    border-radius: 30px 30px 30px 5px;
+    background-color: #FA735D;
+    color: white;
+}
+
+.light-button:hover {
+    background-color: #FA735D;
+}
+
+/* Navbar */
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a:hover {
+    color: #FA735D;
+}
+
+/* Home */
+.home-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.home-heading h1{
+    text-align: left;
+    font-size: 3rem;
+}
+
+.home-buttons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.625rem;
+}
+
+.home-image {
+    text-align: center;
+}
+
+.home-image img{
+    height: 23rem;
+}
+
+/* Services */
+
+.services-box {
+    margin-top: 4rem;
+}
+
+.service-card {
+    background-color: #f5f5f5;
+    margin: 10px;
+}
+
+.service-card:hover {
+    border: 2px solid #FA735D;
+}
+
+.card-box {
+    margin-top: 4rem;
+}
+
+/* About Us */
+
+.about-box {
+    margin-top: 4rem;
+}
+
+.about-button {
+    background-color: #FA735D;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.about-para {
+    margin-top: 1.5rem;
+}
+
+.about-image img{
+    height: 25rem;
+}
+
+/* contact */
+
+.dark-text {
+    font-weight: bold;
+}
+
+.contact-section {
+    padding: 3% 10% 3%;
+    margin-top: 4rem;
+}
+
+.form-box {
+    padding: 50px;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    margin: auto;
+    max-width: 40rem;
+}
+
+.contact-input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+
+.contact-input:focus {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-button {
+    padding: 5px;
+    border-radius: 7px;
+    background-color:#FA735D;
+    color: white;
+}
+
+.contact-details {
+    padding: 50px;
+    border-radius: 30px 0 0 30px;
+}
+
+.contact-details-para {
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+.contact-details-element {
+    margin: 30px;
+}
+
+/* footer */
+.footer {
+    margin: 5rem 0 5rem 0;
+}
+
+.footer-icon {
+    margin: 0 0.6rem 0 0.6rem;
+}
+
+.footer-text {
+    margin-top: 0.6rem;
+}
+
+.footer-icons {
+    color: var(--secondary-text-color);
+}
+
+/* Services Page */
+.news-card {
+    margin: 10px;
+    width: 18rem;
+    box-shadow: 0 0 5px #d4ecff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.news-card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-5px);
+}
+
+.read-more-link a{
+    text-decoration: none;
+}
+
+.link-icon {
+    height: 10px;
+}
+
+.news-heading {
+    margin: 2rem 0 2rem 0;
+}
+
+/* Provider page */
+.search-box {
+    max-width: 20rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.search-box input {
+    border: 1px solid #FA735D;
+    border-radius: 0;
+    border-radius: 7px 0 0 7px;
+}
+
+.search-box :focus {
+    box-shadow: none;
+    border: 2px solid #FA735D;
+}
+
+.search-button {
+    border-radius: 0 7px 7px 0;
+    background-color: #FA735D;
+    border: none;
+}
+
+.search-button:hover {
+    background-color: #FA735D;
+}
+
+.pageNumber {
+    margin: 0;
+}
+
+.page-div {
+    gap: 1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.stars {
+    color: gold;
+}
+
+.filter-button {
+    margin: 0 1rem 0 1rem;
+}
+
+.filter-text {
+    margin: 0;
+}
+
+.filter-box {
+    margin-bottom: 1rem;
+}
+
+/* Login form */
+
+.wrapper {
+    margin: auto;
+    margin-top: 3rem;
+    width: 400px;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #eff6fa;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .input-field {
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 15px 0;
+  }
+
+  .input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+  }
+  
+  .input-field input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+  }
+  .input-field input:focus~label,
+  .input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+  }
+  .forget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+  }
+  #remember {
+    color: black;
+  }
+  .forget label {
+    display: flex;
+    align-items: center;
+  }
+  .forget label p {
+    margin-left: 8px;
+  }
+  .wrapper a {
+    color: black;
+    text-decoration: none;
+  }
+  .wrapper a:hover {
+    text-decoration: underline;
+  }
+  button {
+    background: #FA735D;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+  }
+
+  .register {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /* Style the profile container */
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the profile header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-details {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.profile-details h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.specialty {
+    font-size: 18px;
+    color: #666;
+}
+
+.location {
+    font-size: 18px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Style the profile description */
+.profile-description h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-description p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the services offered */
+.profile-services h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-services ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.profile-services li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Basic styles for the provider dashboard */
+header {
+    /* background-color: #007BFF; */
+    /* color: #fff; */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Dashboard content styles */
+.dashboard-content {
+    padding: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-list,
+.booking-list {
+    list-style: none;
+    padding: 0;
+}
+
+.service-list li,
+.booking-list li {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
