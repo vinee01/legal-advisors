@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/legal-advisors/static/js/main.541919ad.js",
+    "main.js": "/legal-advisors/static/js/main.d94e348a.js",
     "index.html": "/legal-advisors/index.html",
-    "main.541919ad.js.map": "/legal-advisors/static/js/main.541919ad.js.map"
+    "main.d94e348a.js.map": "/legal-advisors/static/js/main.d94e348a.js.map"
   },
   "entrypoints": [
-    "static/js/main.541919ad.js"
+    "static/js/main.d94e348a.js"
   ]
 }
